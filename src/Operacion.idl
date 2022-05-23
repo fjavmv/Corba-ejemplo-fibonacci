@@ -1,0 +1,9 @@
+module OperacionApp
+{
+  interface Operacion
+  {
+    //operaciones (métodos)
+    string ejecutarOperacion(in string nombre, in long tam);
+    oneway void apagarConexion();
+  };
+};
